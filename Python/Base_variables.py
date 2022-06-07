@@ -16,7 +16,7 @@ class SeatType(Enum):
     EMERGENCY_EXIT = 5
     OTHER = 6
 
-class AccountStauts(Enum):
+class AccountStatus(Enum):
     ACTIVE = 1
     BLOCKED = 2
     BANNED = 3
@@ -40,4 +40,3 @@ class Address:
         self.__state = state
         self.__zip_code = zip_code
         self.__country = country
-        
